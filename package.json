@@ -1,11 +1,14 @@
 {
   "name": "json-line-number",
   "version": "1.0.0",
-  "description": "",
+  "description": "Find line number where key was defined in JSON.",
   "main": "index.js",
   "scripts": {
     "run": "node index.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "max S. ivanov",
+  "license": "MIT",
+  "dependencies": {
+    "epipebomb": "^0.1.1"
+  }
 }
