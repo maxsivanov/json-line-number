@@ -1,4 +1,5 @@
-require('epipebomb')()
+#!/usr/bin/env node
+require('epipebomb')();
 var fs = require('fs');
 var parser = require('./json_parser');
 
