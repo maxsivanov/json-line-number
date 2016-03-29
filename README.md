@@ -1,6 +1,9 @@
 # json-line-number
-Find line number where key was defined in JSON. Very helpfull for long config or translations files to find line where some.key.form.code is defined.
-
+Find line number where key was defined in JSON. Very helpful for long config or translations files to find line where some.key.form.code is defined. 
+*json-line-number* does not parse file as normal JSON. There are differences:
+1. It will allow comments in code (started with //)
+2. It will allow single quotes (') in object keys.
+3. It will skip any char before first ({). It means you can use files started with `define(`
 
 ## Install global (recommended) 
 
